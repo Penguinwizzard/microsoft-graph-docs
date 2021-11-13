@@ -18,6 +18,10 @@ This function supports Microsoft 365 and other types of groups provisioned in Az
 request can return is 11000. Note that Microsoft 365 groups cannot contain groups. So membership in a Microsoft 365 group is
 always direct.
 
+> **Note:** This API only works for user accounts, and not for service principal identities. If your application
+supports both, consider using the [DirectoryObject checkMemberGroups endpoint](/graph/api/directoryobject-getmembergroups)
+instead (at `/directoryObjects/{id}/getMemberGroups`).
+
 ## Permissions
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).

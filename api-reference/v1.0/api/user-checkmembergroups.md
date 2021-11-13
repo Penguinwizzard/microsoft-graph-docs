@@ -18,6 +18,10 @@ You can check up to a maximum of 20 groups per request. This function supports M
 types of groups provisioned in Azure AD. Note that Microsoft 365 groups cannot contain groups. So membership
 in a Microsoft 365 group is always direct.
 
+> **Note:** This API only works for user accounts, and not for service principal identities. If your application
+supports both, consider using the [DirectoryObject checkMemberGroups endpoint](/graph/api/directoryobject-checkmembergroups)
+instead (at `/directoryObjects/{id}/checkMemberGroups`).
+
 ## Permissions
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
