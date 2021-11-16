@@ -19,8 +19,8 @@ types of groups provisioned in Azure AD. Note that Microsoft 365 groups cannot c
 in a Microsoft 365 group is always direct.
 
 > **Note:** This API only works for user accounts, and not for service principal identities. If your application
-supports both, consider using the [DirectoryObject checkMemberGroups endpoint](/graph/api/directoryobject-checkmembergroups)
-instead (at `/directoryObjects/{id}/checkMemberGroups`).
+supports both, consider using the [directoryObject: checkMemberGroups method](/graph/api/directoryobject-checkmembergroups)
+instead.
 
 ## Permissions
 
