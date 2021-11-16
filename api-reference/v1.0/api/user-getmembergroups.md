@@ -19,8 +19,8 @@ request can return is 11000. Note that Microsoft 365 groups cannot contain group
 always direct.
 
 > **Note:** This API only works for user accounts, and not for service principal identities. If your application
-supports both, consider using the [DirectoryObject checkMemberGroups endpoint](/graph/api/directoryobject-getmembergroups)
-instead (at `/directoryObjects/{id}/getMemberGroups`).
+supports both, consider using [directoryObject: checkMemberGroups](/graph/api/directoryobject-getmembergroups)
+instead.
 
 ## Permissions
 
